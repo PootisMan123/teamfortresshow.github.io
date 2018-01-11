@@ -1,0 +1,213 @@
+#about {
+    float: right;
+}
+
+#question {
+    width: 15%;
+    height: 15%;
+}
+
+ul {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    float: top;
+    list-style-type: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e2a28;
+    font-family: Trebuchet MS;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+em {
+    font-size: 150%;
+    font-family: Olivia;
+    color: #B42B08;
+}
+
+.start {
+    text-align: center;
+    font-size: 250%;
+}
+
+.start2 {
+    text-align: center;
+    font-size: 125%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.45s;
+    background-color: grey;
+}
+
+.active {
+    background-color: #b35215;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.24), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#hyperlink {
+    font-family: Impact;
+}
+
+#hyperlink:link {
+    color: #B42B08;
+    text-decoration: none;
+}
+
+#hyperlink:visited {
+    color: #B42B08;
+    text-decoration: none;
+}
+
+#hyperlink:hover {
+    color: #1c82c1;
+    text-decoration: none;
+}
+
+#hyperlink:active {
+    color: #B42B08;
+    text-decoration: none;
+}
+
+#hyperlink2 {
+    font-family: Impact;
+    color: #2e8b57;
+}
+
+#hyperlink2:link {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+#hyperlink2:hover {
+    color: #3f516e;
+    text-decoration: none;
+}
+
+#hyperlink2:active {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url('https://i.pinimg.com/736x/e7/9b/af/e79bafd978e5418cb36b1361d1d8b212.jpg');
+    background-repeat: repeat;
+    background-position: left;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background: linear-gradient(to bottom right, white, lightgrey);
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    margin-top: 2.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    color: white;
+    font-family: Impact;
+    font-size: 400%;
+    text-align: center;
+    text-shadow: -1px -1px 0 #b35215, 1px -1px 0 #b35215, -1px 1px 0 #b35215, 1px 1px 0 #b35215, -2px -2px 0 #b35215, 2px -2px 0 #b35215, -2px 2px 0 #b35215, 2px 2px 0 #b35215, -3px -3px 0 #b35215, 3px -3px 0 #b35215, -3px 3px 0 #b35215, 3px 3px 0 #b35215, -4px -4px 0 #b35215, 4px -4px 0 #b35215, -4px 4px 0 #b35215, 4px 4px 0 #b35215, -5px -5px 0 #b35215, 5px -5px 0 #b35215, -5px 5px 0 #b35215, 5px 5px 0 #b35215, -6px -6px 0 #b35215, 6px -6px 0 #b35215, -6px 6px 0 #b35215, 6px 6px 0 #b35215;
+}
+
+#arrow1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#arrow {
+    width: 80px;
+    height: 50px;
+  position: relative;
+}
+
+#arrow:hover {
+  top: 10px;
+  transition-duration: 10s;
+}
+
+.logotitle {
+    text-align: center;
+}
+
+.logo1 {
+    width: 10%;
+    height: 10%;
+}
+
+.calling {
+background-color: rgba(147, 66, 0, 0.2);
+  padding-left: 4%;
+  padding-right: 4%;
+  margin: 3px;
+}
+
+.notification1 {
+  color: white;
+  font-size: 150%;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.subtitle {
+  color: white;
+    font-family: Impact;
+    font-size: 250%;
+   text-shadow: -1px -1px 0 #b35215, 1px -1px 0 #b35215, -1px 1px 0 #b35215, 1px 1px 0 #b35215, -2px -2px 0 #b35215, 2px -2px 0 #b35215, -2px 2px 0 #b35215, 2px 2px 0 #b35215, -3px -3px 0 #b35215, 3px -3px 0 #b35215, -3px 3px 0 #b35215, 3px 3px 0 #b35215;
+}
+
+#scoutpic {
+  float: left;
+}
